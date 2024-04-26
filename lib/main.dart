@@ -190,10 +190,9 @@ class FavoritesPage extends StatelessWidget {
     }
 
     return ListView(
-      padding: const EdgeInsets.all(8),
       children: [
         Padding(
-          padding: const EdgeInsets.only(right: 20),
+          padding: const EdgeInsets.all(20),
           child: Text('You have ${favorites.length} favorites:'),
         ),
         for (var pair in favorites)
